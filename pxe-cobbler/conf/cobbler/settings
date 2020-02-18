@@ -1,13 +1,5 @@
 ---
-default_ownership:
- - "admin"
-default_password_crypted: "$1$rarNLTAV$.LJhVDPaTMgYmfXAXMzPg1"
-manage_dhcp: 1
-manage_dns: 1
-pxe_just_once: 1
-next_server: 192.168.1.5
-server: 192.168.1.5
-allow_dynamic_settings: 1
+
 
 
 # cobbler settings file
@@ -477,3 +469,13 @@ proxy_url_ext: ""
 # internal proxy - used by systems to reach cobbler for kickstarts
 # eg: proxy_url_int: "http://10.0.0.1:8080"
 proxy_url_int: ""
+
+default_ownership:
+ - "admin"
+default_password_crypted: "$1$rarNLTAV$.LJhVDPaTMgYmfXAXMzPg1"
+manage_dhcp: 1
+manage_dns: 1
+pxe_just_once: 1
+next_server: 192.168.1.5
+server: 192.168.1.5
+allow_dynamic_settings: 1
